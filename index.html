@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Basic ToDo App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Basic ToDo Application</h2>
+
+    <form id="todoForm">
+      <input type="text" id="name" placeholder="Enter Name" required />
+      <input type="text" id="city" placeholder="Enter City" required />
+      <button type="submit" id="submitBtn">Add</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>City</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="todoList">
+        <!-- Rows will be added dynamically -->
+      </tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
